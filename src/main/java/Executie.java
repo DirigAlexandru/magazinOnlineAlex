@@ -1,4 +1,4 @@
-import Entitati.Om;
+import entitati.Om;
 
 public class Executie {
     public static void main(String[] args) {
