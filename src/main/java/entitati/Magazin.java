@@ -14,10 +14,10 @@ public class Magazin extends Cos {
     String adresaMagazin;
     String adresaEmailMagazin;
     int numarTelefonMagazin;
-    Map<String, String> orar = new LinkedHashMap<>();
+    Map<String, String> orar = new LinkedHashMap<String, String>();
     HashMap<String, String> orarMagazin; //LocalDateTime - to check if is open at  given time
     String contBancarMagazin;
-    HashMap<String, Integer> stocMagazin = new HashMap<>(); // if stocMagazin <50 suplimenteaza pana la o anumita valoare e.g. 100
+    HashMap<String, Integer> stocMagazin = new HashMap<String, Integer>(); // if stocMagazin <50 suplimenteaza pana la o anumita valoare e.g. 100
 
     public void setNumeMagazin(String nume) {
         this.numeMagazin = nume;

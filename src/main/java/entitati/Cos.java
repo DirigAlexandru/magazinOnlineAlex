@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Cos extends Produs {
-    HashMap<String, Integer> cosCumparaturi = new HashMap<>();
+    HashMap<String, Integer> cosCumparaturi = new HashMap<String, Integer>();
 
     public HashMap<String, Integer> adaugaInCosulDeCumparaturi(Produs produs, int cantitateProdus) {
 
