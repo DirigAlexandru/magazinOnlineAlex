@@ -4,14 +4,19 @@ import entitati.Om;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 
-//import static jdk.nashorn.internal.runtime.regexp.joni.Config.log;
-import static org.junit.Assert.assertEquals;
+import static junit.framework.TestCase.assertEquals;
 
 @Slf4j
 public class TestOm {
     @Test
-    public void testNume() {
-        Om x = new Om();
+    public void Test1() {
+        Om x = new Om(25);
+        Om y = new Om(23,"Decebal", "Mircea");
+        assertEquals("Decebal",y.getNumeOm());
+    }
+}
+    /*public void testNume() {
+        Om x = new Om(22);
         x.setNumeOm("Cata");
         String nume = x.getNumeOm();
         log.info("mesaj1");
@@ -37,4 +42,4 @@ public class TestOm {
         log.info("mesaj3");
         assertEquals("Popescu Vasile", nume);
     }
-}
+}*/
