@@ -10,7 +10,7 @@
 
     <properties>
         <lombok_version>1.18.8</lombok_version>
-        <junit_version>4.12</junit_version>
+        <junit_version>4.13.1</junit_version>
 
     </properties>
 
